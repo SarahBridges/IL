@@ -49,7 +49,7 @@ document.getElementsByTagName("p")[0].innerHTML = "0";
              return height-yScale(d.grade);
            })
            .attr("width", barWidth)
-            // .attr('transform', 'translate(' + (margins.right+15) + ',' + margins.top + ')')
+             .attr('transform', 'translate(' + (margins.right+15) + ',' + margins.top + ')')
            .attr("fill", function(d){
              return colors(d.name);
            });
