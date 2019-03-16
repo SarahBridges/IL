@@ -33,7 +33,7 @@ document.getElementsByTagName("p")[0].innerHTML = "0";
     .range([0, width]);
     var yScale = d3.scaleLinear()
     .domain([0, 100])
-    .range([height-margins.top,margins.bottom]);
+    .range([height-margins.top,0]);
 
     svg.selectAll("rect")
            .data(data[0].grades)
