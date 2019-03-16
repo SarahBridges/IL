@@ -14,7 +14,7 @@ function(err){
 
 
 var initilize = function(data){
-  var screens = {width:600, height:500}
+  var screen = {width:600, height:500}
 
 
   var colors=d3.scaleOrdinal(d3.schemePaired);
